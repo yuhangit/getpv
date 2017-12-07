@@ -101,7 +101,7 @@ object GetPv {
     import hlwbbigdata.phone
     val matchResult = phone.phone_match(spark,data,af.toString)
 
-    matchResult.coalesce(10).write.format("com.databricks.spark.csv").option("delimiter", delm).save(matchSaveFile)
+    matchResult.write.format("com.databricks.spark.csv").option("delimiter", delm).save(matchSaveFile)
 
   }
 
@@ -115,7 +115,7 @@ object GetPv {
         (row._1, appName)
     }.toDF("mobile","url").filter("url != ''").dropDuplicates()
 
-    val tagString = ":" + tagName.split("_").dropRight(1).mkString("_") + "_" + todayStr + tagName.split("_").last + tagStringSuf(prjName)
+    val tagString = ":" + tagName + "_" + todayStr  + tagStringSuf(prjName)
 
     val hisDF = sc.textFile(historyPath).map(row => row.split(delm)(0)).toDF("mobile")
     val tagDF = inDF.join(hisDF,Seq("mobile"),"leftanti").withColumn("tag", concat($"url",lit(tagString))).drop($"url").dropDuplicates("mobile")

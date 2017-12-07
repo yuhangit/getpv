@@ -1,4 +1,4 @@
-[0m[[0m[0minfo[0m] [0m[0mUpdating {file:/home/logan/IdeaProjects/GetPV/}getpv...[0m
+[0m[[0m[0minfo[0m] [0m[0mUpdating {file:/Users/ky/Projects/IdeaProjects/GetPV/}getpv...[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: resolving dependencies :: default#getpv_2.11;0.1[0m
 [0m[[0m[0mdebug[0m] [0m[0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool][0m
 [0m[[0m[0mdebug[0m] [0m[0m	validate = true[0m
@@ -47,7 +47,7 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-core_2.11;2.2.0 {provided=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-core_2.11;2.2.0 {provided=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/logan/.ivy2/local/org.apache.spark/spark-core_2.11/2.2.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ky/.ivy2/local/org.apache.spark/spark-core_2.11/2.2.0/ivys/ivy.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache.spark#spark-core_2.11;2.2.0[0m
 [0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache.spark#spark-core_2.11;2.2.0[0m
@@ -56,10 +56,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0.pom.sha1[0m
 [0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.spark#spark-core_2.11;2.2.0!spark-core_2.11.pom(pom.original) (1178ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.spark#spark-core_2.11;2.2.0!spark-core_2.11.pom(pom.original) (1184ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.2.0 {}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.2.0 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/logan/.ivy2/local/org.apache.spark/spark-parent_2.11/2.2.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ky/.ivy2/local/org.apache.spark/spark-parent_2.11/2.2.0/ivys/ivy.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache.spark#spark-parent_2.11;2.2.0[0m
 [0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.11/2.2.0/spark-parent_2.11-2.2.0.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache.spark#spark-parent_2.11;2.2.0[0m
@@ -68,14 +68,14 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.11/2.2.0/spark-parent_2.11-2.2.0.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.11/2.2.0/spark-parent_2.11-2.2.0.pom.sha1[0m
 [0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.11/2.2.0/spark-parent_2.11-2.2.0.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.spark#spark-parent_2.11;2.2.0!spark-parent_2.11.pom(pom.original) (1308ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.spark#spark-parent_2.11;2.2.0!spark-parent_2.11.pom(pom.original) (1741ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache#apache;14 {}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.apache#apache;14[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/logan/.ivy2/local/org.apache.spark/spark-parent_2.11/2.2.0/jars/spark-parent_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ky/.ivy2/local/org.apache.spark/spark-parent_2.11/2.2.0/jars/spark-parent_2.11.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.11/2.2.0/spark-parent_2.11-2.2.0.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.11/2.2.0/spark-parent_2.11-2.2.0.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/logan/.sbt/preloaded/org.apache.spark/spark-parent_2.11/2.2.0/jars/spark-parent_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried file:////home/logan/.sbt/preloaded/org/apache/spark/spark-parent_2.11/2.2.0/spark-parent_2.11-2.2.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ky/.sbt/preloaded/org.apache.spark/spark-parent_2.11/2.2.0/jars/spark-parent_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried file:////Users/ky/.sbt/preloaded/org/apache/spark/spark-parent_2.11/2.2.0/spark-parent_2.11-2.2.0.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found org.apache.spark#spark-core_2.11;2.2.0 in public[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#getpv_2.11;0.1->org.apache.spark#spark-core_2.11;2.2.0 [provided->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#getpv_2.11;0.1->org.apache.spark#spark-core_2.11;2.2.0 [provided->compile][0m
@@ -3291,7 +3291,7 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-launcher_2.11;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-launcher_2.11;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/logan/.ivy2/local/org.apache.spark/spark-launcher_2.11/2.2.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ky/.ivy2/local/org.apache.spark/spark-launcher_2.11/2.2.0/ivys/ivy.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache.spark#spark-launcher_2.11;2.2.0[0m
 [0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.2.0/spark-launcher_2.11-2.2.0.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache.spark#spark-launcher_2.11;2.2.0[0m
@@ -3300,7 +3300,7 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.2.0/spark-launcher_2.11-2.2.0.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.2.0/spark-launcher_2.11-2.2.0.pom.sha1[0m
 [0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.2.0/spark-launcher_2.11-2.2.0.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.spark#spark-launcher_2.11;2.2.0!spark-launcher_2.11.pom(pom.original) (1010ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.spark#spark-launcher_2.11;2.2.0!spark-launcher_2.11.pom(pom.original) (988ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.2.0 {}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.2.0[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found org.apache.spark#spark-launcher_2.11;2.2.0 in public[0m
@@ -3315,7 +3315,7 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: MergedDescriptors(dependency: org.apache.spark#spark-tags_2.11;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]},dependency: org.apache.spark#spark-tags_2.11;2.2.0 {test=[runtime(*), master(compile)]})[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: MergedDescriptors(dependency: org.apache.spark#spark-tags_2.11;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]},dependency: org.apache.spark#spark-tags_2.11;2.2.0 {test=[runtime(*), master(compile)]})[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/logan/.ivy2/local/org.apache.spark/spark-tags_2.11/2.2.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ky/.ivy2/local/org.apache.spark/spark-tags_2.11/2.2.0/ivys/ivy.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache.spark#spark-tags_2.11;2.2.0[0m
 [0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.2.0/spark-tags_2.11-2.2.0.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache.spark#spark-tags_2.11;2.2.0[0m
@@ -3324,7 +3324,7 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.2.0/spark-tags_2.11-2.2.0.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.2.0/spark-tags_2.11-2.2.0.pom.sha1[0m
 [0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.2.0/spark-tags_2.11-2.2.0.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.spark#spark-tags_2.11;2.2.0!spark-tags_2.11.pom(pom.original) (1404ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.spark#spark-tags_2.11;2.2.0!spark-tags_2.11.pom(pom.original) (917ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.2.0 {}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.2.0[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found org.apache.spark#spark-tags_2.11;2.2.0 in public[0m
@@ -3382,7 +3382,7 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-network-common_2.11;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-network-common_2.11;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/logan/.ivy2/local/org.apache.spark/spark-network-common_2.11/2.2.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ky/.ivy2/local/org.apache.spark/spark-network-common_2.11/2.2.0/ivys/ivy.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache.spark#spark-network-common_2.11;2.2.0[0m
 [0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.2.0/spark-network-common_2.11-2.2.0.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache.spark#spark-network-common_2.11;2.2.0[0m
@@ -3391,7 +3391,7 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.2.0/spark-network-common_2.11-2.2.0.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.2.0/spark-network-common_2.11-2.2.0.pom.sha1[0m
 [0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.2.0/spark-network-common_2.11-2.2.0.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.spark#spark-network-common_2.11;2.2.0!spark-network-common_2.11.pom(pom.original) (1056ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.spark#spark-network-common_2.11;2.2.0!spark-network-common_2.11.pom(pom.original) (879ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.2.0 {}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.2.0[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found org.apache.spark#spark-network-common_2.11;2.2.0 in public[0m
@@ -3523,7 +3523,7 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-network-shuffle_2.11;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-network-shuffle_2.11;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/logan/.ivy2/local/org.apache.spark/spark-network-shuffle_2.11/2.2.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ky/.ivy2/local/org.apache.spark/spark-network-shuffle_2.11/2.2.0/ivys/ivy.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache.spark#spark-network-shuffle_2.11;2.2.0[0m
 [0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.2.0/spark-network-shuffle_2.11-2.2.0.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache.spark#spark-network-shuffle_2.11;2.2.0[0m
@@ -3532,7 +3532,7 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.2.0/spark-network-shuffle_2.11-2.2.0.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.2.0/spark-network-shuffle_2.11-2.2.0.pom.sha1[0m
 [0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.2.0/spark-network-shuffle_2.11-2.2.0.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.spark#spark-network-shuffle_2.11;2.2.0!spark-network-shuffle_2.11.pom(pom.original) (1163ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.spark#spark-network-shuffle_2.11;2.2.0!spark-network-shuffle_2.11.pom(pom.original) (927ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.2.0 {}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.2.0[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found org.apache.spark#spark-network-shuffle_2.11;2.2.0 in public[0m
@@ -3580,7 +3580,7 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-unsafe_2.11;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-unsafe_2.11;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/logan/.ivy2/local/org.apache.spark/spark-unsafe_2.11/2.2.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ky/.ivy2/local/org.apache.spark/spark-unsafe_2.11/2.2.0/ivys/ivy.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache.spark#spark-unsafe_2.11;2.2.0[0m
 [0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.2.0/spark-unsafe_2.11-2.2.0.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache.spark#spark-unsafe_2.11;2.2.0[0m
@@ -3589,7 +3589,7 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.2.0/spark-unsafe_2.11-2.2.0.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.2.0/spark-unsafe_2.11-2.2.0.pom.sha1[0m
 [0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.2.0/spark-unsafe_2.11-2.2.0.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.spark#spark-unsafe_2.11;2.2.0!spark-unsafe_2.11.pom(pom.original) (1014ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.spark#spark-unsafe_2.11;2.2.0!spark-unsafe_2.11.pom(pom.original) (933ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.2.0 {}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.2.0[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found org.apache.spark#spark-unsafe_2.11;2.2.0 in public[0m
@@ -5086,7 +5086,7 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-sql_2.11;2.2.0 {provided=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-sql_2.11;2.2.0 {provided=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/logan/.ivy2/local/org.apache.spark/spark-sql_2.11/2.2.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ky/.ivy2/local/org.apache.spark/spark-sql_2.11/2.2.0/ivys/ivy.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache.spark#spark-sql_2.11;2.2.0[0m
 [0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache.spark#spark-sql_2.11;2.2.0[0m
@@ -5095,7 +5095,7 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0.pom.sha1[0m
 [0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.spark#spark-sql_2.11;2.2.0!spark-sql_2.11.pom(pom.original) (1069ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.spark#spark-sql_2.11;2.2.0!spark-sql_2.11.pom(pom.original) (853ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.2.0 {}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.2.0[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found org.apache.spark#spark-sql_2.11;2.2.0 in public[0m
@@ -5115,7 +5115,7 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-sketch_2.11;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-sketch_2.11;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/logan/.ivy2/local/org.apache.spark/spark-sketch_2.11/2.2.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ky/.ivy2/local/org.apache.spark/spark-sketch_2.11/2.2.0/ivys/ivy.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache.spark#spark-sketch_2.11;2.2.0[0m
 [0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.2.0/spark-sketch_2.11-2.2.0.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache.spark#spark-sketch_2.11;2.2.0[0m
@@ -5124,7 +5124,7 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.2.0/spark-sketch_2.11-2.2.0.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.2.0/spark-sketch_2.11-2.2.0.pom.sha1[0m
 [0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.2.0/spark-sketch_2.11-2.2.0.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.spark#spark-sketch_2.11;2.2.0!spark-sketch_2.11.pom(pom.original) (1016ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.spark#spark-sketch_2.11;2.2.0!spark-sketch_2.11.pom(pom.original) (900ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.2.0 {}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.2.0[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found org.apache.spark#spark-sketch_2.11;2.2.0 in public[0m
@@ -5148,7 +5148,7 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: MergedDescriptors(dependency: org.apache.spark#spark-catalyst_2.11;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]},dependency: org.apache.spark#spark-catalyst_2.11;2.2.0 {test=[runtime(*), master(compile)]})[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: MergedDescriptors(dependency: org.apache.spark#spark-catalyst_2.11;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]},dependency: org.apache.spark#spark-catalyst_2.11;2.2.0 {test=[runtime(*), master(compile)]})[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/logan/.ivy2/local/org.apache.spark/spark-catalyst_2.11/2.2.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/ky/.ivy2/local/org.apache.spark/spark-catalyst_2.11/2.2.0/ivys/ivy.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache.spark#spark-catalyst_2.11;2.2.0[0m
 [0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.2.0/spark-catalyst_2.11-2.2.0.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache.spark#spark-catalyst_2.11;2.2.0[0m
@@ -5157,7 +5157,7 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.2.0/spark-catalyst_2.11-2.2.0.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.2.0/spark-catalyst_2.11-2.2.0.pom.sha1[0m
 [0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.2.0/spark-catalyst_2.11-2.2.0.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.spark#spark-catalyst_2.11;2.2.0!spark-catalyst_2.11.pom(pom.original) (1082ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.spark#spark-catalyst_2.11;2.2.0!spark-catalyst_2.11.pom(pom.original) (979ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.2.0 {}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.2.0[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found org.apache.spark#spark-catalyst_2.11;2.2.0 in public[0m
@@ -17747,115 +17747,63 @@
 [0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.razorvine#pyrolite;4.13!pyrolite.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.slf4j#slf4j-log4j12;1.7.16!slf4j-log4j12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/logan/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/logan/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/logan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/logan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/logan/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/logan/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/logan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/logan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.directory.server#apacheds-kerberos-codec;2.0.0-M15!apacheds-kerberos-codec.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/logan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/logan/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] javax.activation#activation;1.1.1!activation.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/logan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/logan/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/logan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/logan/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/logan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/logan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/logan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/logan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/logan/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/logan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/logan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/logan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/logan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (33ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/logan/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/logan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/ky/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/ky/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/ky/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/ky/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/ky/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/ky/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/ky/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/ky/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/ky/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/ky/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/ky/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/ky/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/ky/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/ky/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/ky/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/ky/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/ky/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/ky/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/ky/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/ky/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/ky/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/ky/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/ky/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/ky/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/ky/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/ky/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (24ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (24ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/ky/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/ky/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.spark#spark-core_2.11;2.2.0!spark-core_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.spark#spark-sql_2.11;2.2.0!spark-sql_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/logan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/logan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (29ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (44ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/logan/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/logan/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.avro#avro;1.7.7!avro.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/logan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/logan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.avro#avro-mapred;1.7.7!avro-mapred.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.twitter#chill_2.11;0.8.0!chill_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.twitter#chill-java;0.8.0!chill-java.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.xbean#xbean-asm5-shaded;4.4!xbean-asm5-shaded.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.hadoop#hadoop-client;2.6.5!hadoop-client.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.curator#curator-framework;2.6.0!curator-framework.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.spark#spark-launcher_2.11;2.2.0!spark-launcher_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.spark#spark-network-common_2.11;2.2.0!spark-network-common_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.spark#spark-network-shuffle_2.11;2.2.0!spark-network-shuffle_2.11.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.sf.py4j#py4j;0.10.4!py4j.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.spark#spark-unsafe_2.11;2.2.0!spark-unsafe_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.curator#curator-framework;2.6.0!curator-framework.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.spark#spark-tags_2.11;2.2.0!spark-tags_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.java.dev.jets3t#jets3t;0.9.3!jets3t.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.commons#commons-crypto;1.0.0!commons-crypto.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.curator#curator-recipes;2.6.0!curator-recipes.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.spark-project.spark#unused;1.0.0!unused.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] javax.servlet#javax.servlet-api;3.1.0!javax.servlet-api.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.commons#commons-lang3;3.5!commons-lang3.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.directory.server#apacheds-i18n;2.0.0-M15!apacheds-i18n.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.commons#commons-crypto;1.0.0!commons-crypto.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.spark-project.spark#unused;1.0.0!unused.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.directory.api#api-asn1-api;1.0.0-M20!api-asn1-api.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.directory.api#api-util;1.0.0-M20!api-util.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.commons#commons-math3;3.4.1!commons-math3.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.zookeeper#zookeeper;3.4.6!zookeeper.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.code.findbugs#jsr305;1.3.9!jsr305.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.16!slf4j-api.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.slf4j#jul-to-slf4j;1.7.16!jul-to-slf4j.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.codehaus.jackson#jackson-core-asl;1.9.13!jackson-core-asl.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.slf4j#jcl-over-slf4j;1.7.16!jcl-over-slf4j.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.codehaus.jackson#jackson-mapper-asl;1.9.13!jackson-mapper-asl.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.slf4j#slf4j-log4j12;1.7.16!slf4j-log4j12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;0.9.94!jline.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.ning#compress-lzf;1.0.3!compress-lzf.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.mortbay.jetty#jetty-util;6.1.26!jetty-util.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.xerial.snappy#snappy-java;1.1.2.6!snappy-java.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] xerces#xercesImpl;2.9.1!xercesImpl.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.jpountz.lz4#lz4;1.3.0!lz4.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] xml-apis#xml-apis;1.3.04!xml-apis.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.roaringbitmap#RoaringBitmap;0.5.11!RoaringBitmap.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.commons#commons-compress;1.4.1!commons-compress.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-net#commons-net;2.2!commons-net.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.tukaani#xz;1.0!xz.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.json4s#json4s-jackson_2.11;3.2.11!json4s-jackson_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.avro#avro-ipc;1.7.7!avro-ipc.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.avro#avro-ipc;1.7.7!avro-ipc.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.glassfish.jersey.core#jersey-client;2.22.2!jersey-client.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (53ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/logan/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (28ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/ky/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
@@ -17863,118 +17811,170 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.esotericsoftware#kryo-shaded;3.0.3!kryo-shaded.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] mx4j#mx4j;3.0.2!mx4j.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.glassfish.jersey.core#jersey-common;2.22.2!jersey-common.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.esotericsoftware#minlog;1.3.0!minlog.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] javax.mail#mail;1.4.7!mail.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.glassfish.jersey.core#jersey-server;2.22.2!jersey-server.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.objenesis#objenesis;2.1!objenesis.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.bouncycastle#bcprov-jdk15on;1.51!bcprov-jdk15on.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.hadoop#hadoop-common;2.6.5!hadoop-common.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.hadoop#hadoop-hdfs;2.6.5!hadoop-hdfs.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.jamesmurty.utils#java-xmlbuilder;1.0!java-xmlbuilder.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-app;2.6.5!hadoop-mapreduce-client-app.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.iharder#base64;2.3.8!base64.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-api;2.6.5!hadoop-yarn-api.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-core;2.6.5!hadoop-mapreduce-client-core.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.json4s#json4s-core_2.11;3.2.11!json4s-core_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.6.5!hadoop-mapreduce-client-jobclient.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.hadoop#hadoop-annotations;2.6.5!hadoop-annotations.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.guava#guava;11.0.2!guava.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-cli#commons-cli;1.2!commons-cli.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] xmlenc#xmlenc;0.52!xmlenc.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-httpclient#commons-httpclient;3.1!commons-httpclient.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-collections#commons-collections;3.2.2!commons-collections.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-lang#commons-lang;2.6!commons-lang.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-configuration#commons-configuration;1.6!commons-configuration.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.json4s#json4s-ast_2.11;3.2.11!json4s-ast_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.glassfish.jersey.containers#jersey-container-servlet;2.22.2!jersey-container-servlet.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.codehaus.jackson#jackson-core-asl;1.9.13!jackson-core-asl.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.zookeeper#zookeeper;3.4.6!zookeeper.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.spark#spark-core_2.11;2.2.0!spark-core_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.spark#spark-sql_2.11;2.2.0!spark-sql_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.codehaus.jackson#jackson-mapper-asl;1.9.13!jackson-mapper-asl.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;0.9.94!jline.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.avro#avro;1.7.7!avro.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.commons#commons-compress;1.4.1!commons-compress.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.mortbay.jetty#jetty-util;6.1.26!jetty-util.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/ky/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.avro#avro-mapred;1.7.7!avro-mapred.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.tukaani#xz;1.0!xz.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] xerces#xercesImpl;2.9.1!xercesImpl.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.twitter#chill_2.11;0.8.0!chill_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] xml-apis#xml-apis;1.3.04!xml-apis.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.avro#avro-ipc;1.7.7!avro-ipc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.twitter#chill-java;0.8.0!chill-java.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.avro#avro-ipc;1.7.7!avro-ipc.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-common;2.6.5!hadoop-mapreduce-client-common.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.glassfish.jersey.containers#jersey-container-servlet-core;2.22.2!jersey-container-servlet-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.xbean#xbean-asm5-shaded;4.4!xbean-asm5-shaded.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.esotericsoftware#kryo-shaded;3.0.3!kryo-shaded.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.6.5!hadoop-mapreduce-client-shuffle.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.6!paranamer.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty-all;4.0.43.Final!netty-all.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.hadoop#hadoop-client;2.6.5!hadoop-client.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.esotericsoftware#minlog;1.3.0!minlog.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.spark#spark-launcher_2.11;2.2.0!spark-launcher_2.11.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-common;2.6.5!hadoop-yarn-common.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scalap;2.11.8!scalap.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty;3.9.9.Final!netty.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.spark#spark-network-common_2.11;2.2.0!spark-network-common_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.objenesis#objenesis;2.1!objenesis.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-client;2.6.5!hadoop-yarn-client.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.clearspring.analytics#stream;2.7.0!stream.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.dropwizard.metrics#metrics-core;3.1.2!metrics-core.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.spark#spark-network-shuffle_2.11;2.2.0!spark-network-shuffle_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.hadoop#hadoop-common;2.6.5!hadoop-common.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.spark#spark-unsafe_2.11;2.2.0!spark-unsafe_2.11.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-server-common;2.6.5!hadoop-yarn-server-common.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.dropwizard.metrics#metrics-jvm;3.1.2!metrics-jvm.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.java.dev.jets3t#jets3t;0.9.3!jets3t.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.hadoop#hadoop-hdfs;2.6.5!hadoop-hdfs.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] javax.xml.bind#jaxb-api;2.2.2!jaxb-api.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.dropwizard.metrics#metrics-json;3.1.2!metrics-json.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.curator#curator-recipes;2.6.0!curator-recipes.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-app;2.6.5!hadoop-mapreduce-client-app.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] javax.servlet#javax.servlet-api;3.1.0!javax.servlet-api.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.codehaus.jackson#jackson-jaxrs;1.9.13!jackson-jaxrs.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.dropwizard.metrics#metrics-graphite;3.1.2!metrics-graphite.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.commons#commons-lang3;3.5!commons-lang3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-api;2.6.5!hadoop-yarn-api.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.codehaus.jackson#jackson-xc;1.9.13!jackson-xc.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.6.5!jackson-databind.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.commons#commons-math3;3.4.1!commons-math3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-core;2.6.5!hadoop-mapreduce-client-core.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.inject#guice;3.0!guice.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.module#jackson-module-scala_2.11;2.6.5!jackson-module-scala_2.11.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.code.findbugs#jsr305;1.3.9!jsr305.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.6.5!hadoop-mapreduce-client-jobclient.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] javax.xml.stream#stax-api;1.0-2!stax-api.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.ivy#ivy;2.4.0!ivy.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.16!slf4j-api.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.slf4j#jul-to-slf4j;1.7.16!jul-to-slf4j.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.hadoop#hadoop-annotations;2.6.5!hadoop-annotations.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] javax.inject#javax.inject;1!javax.inject.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] oro#oro;2.0.8!oro.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.slf4j#jcl-over-slf4j;1.7.16!jcl-over-slf4j.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/ky/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] aopalliance#aopalliance;1.0!aopalliance.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.guava#guava;11.0.2!guava.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.sonatype.sisu.inject#cglib;2.2.1-v20090111!cglib.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-cli#commons-cli;1.2!commons-cli.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.glassfish.jersey.containers#jersey-container-servlet-core;2.22.2!jersey-container-servlet-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty-all;4.0.43.Final!netty-all.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.fusesource.leveldbjni#leveldbjni-all;1.8!leveldbjni-all.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] xmlenc#xmlenc;0.52!xmlenc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty;3.9.9.Final!netty.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-server-nodemanager;2.6.5!hadoop-yarn-server-nodemanager.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-httpclient#commons-httpclient;3.1!commons-httpclient.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.clearspring.analytics#stream;2.7.0!stream.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.codehaus.jettison#jettison;1.1!jettison.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.dropwizard.metrics#metrics-core;3.1.2!metrics-core.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.dropwizard.metrics#metrics-jvm;3.1.2!metrics-jvm.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.6.5!jackson-annotations.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.dropwizard.metrics#metrics-json;3.1.2!metrics-json.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.6.5!jackson-core.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-collections#commons-collections;3.2.2!commons-collections.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.dropwizard.metrics#metrics-graphite;3.1.2!metrics-graphite.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.3.3!httpcore.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.6.5!jackson-databind.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.3.6!httpclient.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.module#jackson-module-scala_2.11;2.6.5!jackson-module-scala_2.11.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.ivy#ivy;2.4.0!ivy.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] javax.activation#activation;1.1.1!activation.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-lang#commons-lang;2.6!commons-lang.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] oro#oro;2.0.8!oro.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-configuration#commons-configuration;1.6!commons-configuration.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-net#commons-net;2.2!commons-net.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] mx4j#mx4j;3.0.2!mx4j.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.json4s#json4s-jackson_2.11;3.2.11!json4s-jackson_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] javax.mail#mail;1.4.7!mail.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.glassfish.jersey.core#jersey-client;2.22.2!jersey-client.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.bouncycastle#bcprov-jdk15on;1.51!bcprov-jdk15on.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.glassfish.jersey.core#jersey-common;2.22.2!jersey-common.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.code.gson#gson;2.2.4!gson.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.jamesmurty.utils#java-xmlbuilder;1.0!java-xmlbuilder.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.glassfish.jersey.core#jersey-server;2.22.2!jersey-server.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.iharder#base64;2.3.8!base64.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.glassfish.jersey.containers#jersey-container-servlet;2.22.2!jersey-container-servlet.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.hadoop#hadoop-auth;2.6.5!hadoop-auth.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.json4s#json4s-core_2.11;3.2.11!json4s-core_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.json4s#json4s-ast_2.11;3.2.11!json4s-ast_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.6!paranamer.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scalap;2.11.8!scalap.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.curator#curator-client;2.6.0!curator-client.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.htrace#htrace-core;3.0.4!htrace-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-digester#commons-digester;1.8!commons-digester.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] javax.ws.rs#javax.ws.rs-api;2.0.1!javax.ws.rs-api.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-beanutils#commons-beanutils-core;1.8.0!commons-beanutils-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.glassfish.hk2#hk2-api;2.4.0-b34!hk2-api.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-beanutils#commons-beanutils;1.7.0!commons-beanutils.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.glassfish.hk2.external#javax.inject;2.4.0-b34!javax.inject.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.glassfish.hk2#hk2-locator;2.4.0-b34!hk2-locator.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (53ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/ky/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] javax.annotation#javax.annotation-api;1.2!javax.annotation-api.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.ning#compress-lzf;1.0.3!compress-lzf.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.glassfish.jersey.bundles.repackaged#jersey-guava;2.22.2!jersey-guava.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.xerial.snappy#snappy-java;1.1.2.6!snappy-java.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.glassfish.hk2#osgi-resource-locator;1.0.1!osgi-resource-locator.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.jpountz.lz4#lz4;1.3.0!lz4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.glassfish.hk2#hk2-utils;2.4.0-b34!hk2-utils.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.roaringbitmap#RoaringBitmap;0.5.11!RoaringBitmap.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.glassfish.hk2.external#aopalliance-repackaged;2.4.0-b34!aopalliance-repackaged.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.javassist#javassist;3.18.1-GA!javassist.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.glassfish.jersey.media#jersey-media-jaxb;2.22.2!jersey-media-jaxb.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] javax.validation#validation-api;1.1.0.Final!validation-api.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.module#jackson-module-paranamer;2.6.5!jackson-module-paranamer.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.univocity#univocity-parsers;2.2.1!univocity-parsers.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.code.gson#gson;2.2.4!gson.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.spark#spark-sketch_2.11;2.2.0!spark-sketch_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.spark#spark-catalyst_2.11;2.2.0!spark-catalyst_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.hadoop#hadoop-auth;2.6.5!hadoop-auth.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] javax.ws.rs#javax.ws.rs-api;2.0.1!javax.ws.rs-api.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.parquet#parquet-column;1.8.2!parquet-column.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.curator#curator-client;2.6.0!curator-client.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.parquet#parquet-hadoop;1.8.2!parquet-hadoop.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.glassfish.hk2#hk2-api;2.4.0-b34!hk2-api.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.codehaus.janino#janino;3.0.0!janino.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.htrace#htrace-core;3.0.4!htrace-core.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.glassfish.hk2.external#javax.inject;2.4.0-b34!javax.inject.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.codehaus.janino#commons-compiler;3.0.0!commons-compiler.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.glassfish.hk2#hk2-locator;2.4.0-b34!hk2-locator.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-digester#commons-digester;1.8!commons-digester.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.antlr#antlr4-runtime;4.5.3!antlr4-runtime.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-beanutils#commons-beanutils-core;1.8.0!commons-beanutils-core.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] javax.annotation#javax.annotation-api;1.2!javax.annotation-api.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.parquet#parquet-common;1.8.2!parquet-common.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-beanutils#commons-beanutils;1.7.0!commons-beanutils.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.glassfish.jersey.bundles.repackaged#jersey-guava;2.22.2!jersey-guava.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.parquet#parquet-encoding;1.8.2!parquet-encoding.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.glassfish.hk2#osgi-resource-locator;1.0.1!osgi-resource-locator.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.parquet#parquet-format;2.3.1!parquet-format.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.glassfish.hk2#hk2-utils;2.4.0-b34!hk2-utils.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.parquet#parquet-jackson;1.8.2!parquet-jackson.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 26657ms :: artifacts dl 157ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#getpv_2.11;0.1 compile produced in /home/logan/IdeaProjects/GetPV/target/scala-2.11/resolution-cache/reports/default-getpv_2.11-compile.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#getpv_2.11;0.1 runtime produced in /home/logan/IdeaProjects/GetPV/target/scala-2.11/resolution-cache/reports/default-getpv_2.11-runtime.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#getpv_2.11;0.1 test produced in /home/logan/IdeaProjects/GetPV/target/scala-2.11/resolution-cache/reports/default-getpv_2.11-test.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#getpv_2.11;0.1 provided produced in /home/logan/IdeaProjects/GetPV/target/scala-2.11/resolution-cache/reports/default-getpv_2.11-provided.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#getpv_2.11;0.1 optional produced in /home/logan/IdeaProjects/GetPV/target/scala-2.11/resolution-cache/reports/default-getpv_2.11-optional.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#getpv_2.11;0.1 compile-internal produced in /home/logan/IdeaProjects/GetPV/target/scala-2.11/resolution-cache/reports/default-getpv_2.11-compile-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#getpv_2.11;0.1 runtime-internal produced in /home/logan/IdeaProjects/GetPV/target/scala-2.11/resolution-cache/reports/default-getpv_2.11-runtime-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#getpv_2.11;0.1 test-internal produced in /home/logan/IdeaProjects/GetPV/target/scala-2.11/resolution-cache/reports/default-getpv_2.11-test-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#getpv_2.11;0.1 plugin produced in /home/logan/IdeaProjects/GetPV/target/scala-2.11/resolution-cache/reports/default-getpv_2.11-plugin.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#getpv_2.11;0.1 pom produced in /home/logan/IdeaProjects/GetPV/target/scala-2.11/resolution-cache/reports/default-getpv_2.11-pom.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#getpv_2.11;0.1 scala-tool produced in /home/logan/IdeaProjects/GetPV/target/scala-2.11/resolution-cache/reports/default-getpv_2.11-scala-tool.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	resolve done (26657ms resolve - 157ms download)[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 22203ms :: artifacts dl 224ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#getpv_2.11;0.1 compile produced in /Users/ky/Projects/IdeaProjects/GetPV/target/scala-2.11/resolution-cache/reports/default-getpv_2.11-compile.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#getpv_2.11;0.1 runtime produced in /Users/ky/Projects/IdeaProjects/GetPV/target/scala-2.11/resolution-cache/reports/default-getpv_2.11-runtime.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#getpv_2.11;0.1 test produced in /Users/ky/Projects/IdeaProjects/GetPV/target/scala-2.11/resolution-cache/reports/default-getpv_2.11-test.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#getpv_2.11;0.1 provided produced in /Users/ky/Projects/IdeaProjects/GetPV/target/scala-2.11/resolution-cache/reports/default-getpv_2.11-provided.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#getpv_2.11;0.1 optional produced in /Users/ky/Projects/IdeaProjects/GetPV/target/scala-2.11/resolution-cache/reports/default-getpv_2.11-optional.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#getpv_2.11;0.1 compile-internal produced in /Users/ky/Projects/IdeaProjects/GetPV/target/scala-2.11/resolution-cache/reports/default-getpv_2.11-compile-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#getpv_2.11;0.1 runtime-internal produced in /Users/ky/Projects/IdeaProjects/GetPV/target/scala-2.11/resolution-cache/reports/default-getpv_2.11-runtime-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#getpv_2.11;0.1 test-internal produced in /Users/ky/Projects/IdeaProjects/GetPV/target/scala-2.11/resolution-cache/reports/default-getpv_2.11-test-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#getpv_2.11;0.1 plugin produced in /Users/ky/Projects/IdeaProjects/GetPV/target/scala-2.11/resolution-cache/reports/default-getpv_2.11-plugin.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#getpv_2.11;0.1 pom produced in /Users/ky/Projects/IdeaProjects/GetPV/target/scala-2.11/resolution-cache/reports/default-getpv_2.11-pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#getpv_2.11;0.1 scala-tool produced in /Users/ky/Projects/IdeaProjects/GetPV/target/scala-2.11/resolution-cache/reports/default-getpv_2.11-scala-tool.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (22203ms resolve - 224ms download)[0m
 [0m[[0m[0minfo[0m] [0m[0mDone updating.[0m
