@@ -1,5 +1,5 @@
-[0m[[0m[0minfo[0m] [0m[0mIncluding: util.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mIncluding: scala-library-2.11.8.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: util.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: scala-library-2.11.8.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mCalculate mappings...[0m
 [0m[[0m[0minfo[0m] [0m[0mChecking every *.class/*.jar file's SHA-1.[0m
 [0m[[0m[0minfo[0m] [0m[0mMerging files...[0m
@@ -7,7 +7,7 @@
 [0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/KV_GEN_UTIL/KV_GEN_UTIL/pom.properties' with strategy 'discard'[0m
 [0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/KV_GEN_UTIL/KV_GEN_UTIL/pom.xml' with strategy 'discard'[0m
 [0m[[0m[33mwarn[0m] [0m[0mStrategy 'discard' was applied to 3 files[0m
-[0m[[0m[0minfo[0m] [0m[0mSHA-1: e49d8fabd482e0b2033f921c2defe544e3f08cf9[0m
+[0m[[0m[0minfo[0m] [0m[0mSHA-1: 49657b833efaab6861ebeaf09499309fbd591f43[0m
 [0m[[0m[0minfo[0m] [0m[0mPackaging /Users/ky/Projects/IdeaProjects/GetPV/target/scala-2.11/GetPV-assembly-0.1.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$1$$anonfun$apply$1.class[0m
@@ -38,6 +38,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$6.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$main$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$matchPortal$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$matchPortal$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$matchPortal$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$matchPortal$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$typecreator15$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$typecreator15$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$typecreator19$1.class[0m

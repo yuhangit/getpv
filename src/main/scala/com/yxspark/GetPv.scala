@@ -3,7 +3,7 @@ package com.yxspark
 import java.sql.Date
 
 import org.apache.spark.sql.functions._
-import org.apache.spark.sql.{Dataset, SparkSession}
+import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.spark.sql.expressions.Window
 import org.apache.hadoop.fs.{FileSystem, Path}
 import java.io.File
@@ -11,6 +11,7 @@ import java.text.SimpleDateFormat
 
 
 import org.apache.commons.math3.geometry.spherical.oned.S1Point
+
 object GetPv {
   val spark = SparkSession.builder().appName("com/yxspark").getOrCreate()
   val sc = spark.sparkContext
@@ -99,9 +100,14 @@ object GetPv {
         (arr(0),arr(1),arr(2))
     }
     import hlwbbigdata.phone
-    val matchResult = phone.phone_match(spark,data,af.toString)
 
-    matchResult.write.format("com.databricks.spark.csv").option("delimiter", delm).save(matchSaveFile)
+    val dataPieces =data.randomSplit(Array(1,1,1,1,1))
+    var res = phone.phone_match(spark,dataPieces(0),af.toString+"_0")
+    for ( (piece,i) <- dataPieces.drop(0).zipWithIndex)
+      res = res.union(phone.phone_match(spark,piece,af.toString+"_"+(i+1)))
+    //val matchResult = phone.phone_match(spark,data,af.toString)
+
+    res.coalesce(1).write.format("com.databricks.spark.csv").option("delimiter", delm).save(matchSaveFile)
 
   }
 
