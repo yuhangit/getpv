@@ -107,7 +107,7 @@ object GetPv {
       res = res.union(phone.phone_match(spark,piece,af.toString+"_"+(i+1)))
     //val matchResult = phone.phone_match(spark,data,af.toString)
 
-    res.coalesce(1).write.format("com.databricks.spark.csv").option("delimiter", delm).save(matchSaveFile)
+    res.write.format("com.databricks.spark.csv").option("delimiter", delm).save(matchSaveFile)
 
   }
 
@@ -126,7 +126,7 @@ object GetPv {
     val hisDF = sc.textFile(historyPath).map(row => row.split(delm)(0)).toDF("mobile")
     val tagDF = inDF.join(hisDF,Seq("mobile"),"leftanti").withColumn("tag", concat($"url",lit(tagString))).drop($"url").dropDuplicates("mobile")
 
-    tagDF.write.format("com.databricks.spark.csv").option("delimiter",delm).save(outPath)
+    tagDF.coalesce(1).write.format("com.databricks.spark.csv").option("delimiter",delm).save(outPath)
 
   }
 
