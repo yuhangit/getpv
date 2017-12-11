@@ -7,7 +7,7 @@
 [0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/KV_GEN_UTIL/KV_GEN_UTIL/pom.properties' with strategy 'discard'[0m
 [0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/KV_GEN_UTIL/KV_GEN_UTIL/pom.xml' with strategy 'discard'[0m
 [0m[[0m[33mwarn[0m] [0m[0mStrategy 'discard' was applied to 3 files[0m
-[0m[[0m[0minfo[0m] [0m[0mSHA-1: 49657b833efaab6861ebeaf09499309fbd591f43[0m
+[0m[[0m[0minfo[0m] [0m[0mSHA-1: acd94f1c780593017f57842ca6f1221c2939ed88[0m
 [0m[[0m[0minfo[0m] [0m[0mPackaging /Users/ky/Projects/IdeaProjects/GetPV/target/scala-2.11/GetPV-assembly-0.1.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$1$$anonfun$apply$1.class[0m
