@@ -99,12 +99,13 @@ object GetPv {
         val arr =row.split(delm)
         (arr(0),arr(1),arr(2))
     }
+    val counts:Int = (data.count()/10000).toInt
     import hlwbbigdata.phone
 
-    val dataPieces =data.randomSplit(Array(1,1,1,1,1))
-    var res = phone.phone_match(spark,dataPieces(0),af.toString+"_0")
-    for ( (piece,i) <- dataPieces.drop(0).zipWithIndex)
-      res = res.union(phone.phone_match(spark,piece,af.toString+"_"+(i+1)))
+    val dataPieces =data.randomSplit(Array.fill(counts)(1))
+    var res = phone.phone_match(spark,dataPieces(0),af.toString)
+    for  (piece <- dataPieces.drop(1))
+      res = res.union(phone.phone_match(spark,piece,af.toString))
     //val matchResult = phone.phone_match(spark,data,af.toString)
 
     res.write.format("com.databricks.spark.csv").option("delimiter", delm).save(matchSaveFile)
