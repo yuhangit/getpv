@@ -1,7 +1,5 @@
 package com.yxspark
 
-import java.sql.Date
-
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.spark.sql.expressions.Window
@@ -10,10 +8,10 @@ import java.io.File
 import java.text.SimpleDateFormat
 
 
-import org.apache.commons.math3.geometry.spherical.oned.S1Point
-
+case class SadaRecord(scrip:String, ad:String, ts:String, url:String, ref:String, ua:String, dstip:String,cookie:String,
+                      srcPort:String)
 object GetPv {
-  val spark = SparkSession.builder().appName("com/yxspark").getOrCreate()
+  val spark = SparkSession.builder().appName("GetPv").getOrCreate()
   val sc = spark.sparkContext
   val todayStr = new SimpleDateFormat("yyyyMMdd").format(new java.util.Date())
   val timeStr = new SimpleDateFormat("HHmmss").format(new java.util.Date())
@@ -22,7 +20,9 @@ object GetPv {
 
   import spark.implicits._
 
-  private def tagStringSuf(prjName:String)= prjName match {
+  def varsMap = Map(("delm","\t"),("underscore","_"),("ad","ad"),("total","_total"))
+
+  private  def tagStringSuf(prjName:String)= prjName match {
       case "daoxila" => ":96928575"
       case "futures" => ":96928579"
       case _ => ""
@@ -50,13 +50,33 @@ object GetPv {
 
   def stg_s0(adcookiePath:String, newclickPath:String, postPath:String, urlPath:String, savePath:String): Unit = {
     //println(s"source files: ${adcookiePath} ${newclickPath} ${postPath}")
+    val sadaRecordArr = Array("scrip", "ad", "ts", "url", "ref", "ua", "dstip","cookie", "srcPort")
+
     val data = sc.textFile("%s,%s,%s".format(adcookiePath,newclickPath,postPath))
     val urls = sc.textFile(urlPath).collect()
 
-    val dataFilter = data.filter(row => urls.exists(url => row.contains(url)))
+    val sourceDS = data.map{
+      line =>
+        val arr:Array[String] = line.split("\t")
+        val ref = if (arr(4).toLowerCase == "nodef") "" else arr(4)
+        val ua = if ( arr(5).toLowerCase  == "nodef") "" else arr(5)
+        val cookie = if (arr(7).toLowerCase == "nodef") "" else arr(7)
+        (arr(0),arr(1),arr(2),arr(3),ref,ua,arr(6),cookie,arr(8))
+    }.toDF(sadaRecordArr:_*).
+        withColumn("url", regexp_replace($"url","\t","")).
+        withColumn("ref",regexp_replace(decode(unbase64($"ref"),"UTF-8"),"\t","")).
+        //withColumn("ua",decode(unbase64($"ua"),"UTF-8")).
+        withColumn("cookie",regexp_replace(decode(unbase64($"cookie"),"UTF-8"),"\\p{C}","?")).as[SadaRecord]
 
-    dataFilter.saveAsTextFile(savePath)
+
+    val saveTbl = sourceDS.filter{
+      record =>
+        urls.exists(l => l.forall(record.url.contains(_)))
+    }.toDF(sadaRecordArr:_*)
     //println("src data count"+ dataFilter.count)
+    saveTbl.coalesce(1000).write.format("com.databricks.spark.csv").
+      option("delimiter", varsMap("delm"))
+      .save(savePath)
   }
 
   // filter data based ts col -- unxi epoch timestamp
@@ -90,26 +110,42 @@ object GetPv {
     //dataFilter.write.format("com.databricks.spark.csv").option("delimiter","\t").save(destpath)
     //println("after filter, data count: " + dataFilter.count)
   }
-  def varsMap = Map(("delm","\t"),("underscore","_"),("ad","ad"),("total","_total"))
+
+  def filterDataNew(srcpath:String, destPath:String, destMatchPath:String, paraFile:String): Unit ={
+    val delm = varsMap("delm")
+    val srcData = sc.textFile(srcpath).map{
+      row =>
+        val arr = row.split(delm)
+        (arr(0), arr(1),arr(2).toLong, arr(3).split("//")(1).split("/")(0), arr(4), arr(5), arr(6), arr(7), arr(8))
+    }.toDF("srcip","ad","ts","url","ref","ua","desip","cookie","src_port")
+    val params = sc.textFile(paraFile).map(l => l.split(" +")).collect()
+  }
+
+
   //case class Record(mobile:String, url:String)
-  def matchPortal(varsmap:Map[String,String], filterPath:String,  matchSaveFile:String,af:Int): Unit ={
+  def matchPortal(varsmap:Map[String,String], filterPath:String,  matchSaveFile:String,af:Int,pieceAmount:Int): Unit ={
+
     val delm = varsmap("delm")
     val data = sc.textFile(filterPath).map{
       row =>
         val arr =row.split(delm)
         (arr(0),arr(1),arr(2))
     }
-    val counts:Int = (data.count()/10000).toInt
+    val counts:Int = math.ceil(data.count()/pieceAmount.toFloat).toInt
     import hlwbbigdata.phone
 
     val dataPieces =data.randomSplit(Array.fill(counts)(1))
-    var res = phone.phone_match(spark,dataPieces(0),af.toString)
-    for  (piece <- dataPieces.drop(1))
-      res = res.union(phone.phone_match(spark,piece,af.toString))
-    //val matchResult = phone.phone_match(spark,data,af.toString)
+    for  ((piece,idx) <- dataPieces.zipWithIndex){
+      val matchResult = phone.phone_match(spark,piece, af.toString)
+      matchResult.write.format("com.databricks.spark.csv").option("delimiter", delm).save(matchSaveFile+ "_" + idx)
 
-    res.write.format("com.databricks.spark.csv").option("delimiter", delm).save(matchSaveFile)
+    }
 
+  }
+
+  def combinMatch(matchSaveFile:String): Unit ={
+    val res = sc.textFile(matchSaveFile+"_*")
+    res.saveAsTextFile(matchSaveFile)
   }
 
   def dropHistory(prjName:String,tagName:String,tagFile:String, mathePath:String,historyPath:String,outPath:String): Unit ={
@@ -125,7 +161,7 @@ object GetPv {
     val tagString = ":" + tagName + "_" + todayStr  + tagStringSuf(prjName)
 
     val hisDF = sc.textFile(historyPath).map(row => row.split(delm)(0)).toDF("mobile")
-    val tagDF = inDF.join(hisDF,Seq("mobile"),"leftanti").withColumn("tag", concat($"url",lit(tagString))).drop($"url").dropDuplicates("mobile")
+    val tagDF = inDF.join(hisDF,Seq("mobile"),"leftanti").withColumn("tag", concat($"url",lit(tagString))).drop($"url").dropDuplicates(Seq("mobile"))
 
     tagDF.coalesce(1).write.format("com.databricks.spark.csv").option("delimiter",delm).save(outPath)
 
@@ -171,6 +207,8 @@ object GetPv {
     val dateStr = if (args.length < 2) new SimpleDateFormat("yyyyMMdd").format(new java.util.Date()) else args(1)
     val seconds = args(2).toInt
     val tagName = args(3)
+    val arg4 = args.lift(4).getOrElse("10000")
+    val runAll = if (arg4 == "all") true else false
 
     val publicPath = "hdfs://ns1/user/gdpi/public"
     val addcookiePath = s"${publicPath}/sada_gdpi_adcookie/${dateStr}/*/*.gz"
@@ -206,12 +244,16 @@ object GetPv {
     deleteFile(saveHistoryPath)
     // get relate url from source
 
-    if (args.length > 4){
+    val pieceAmount =  if (runAll){
       stg_s0(addcookiePath, newclickPath, postPath, urlPath, savePath)
+      args.lift(5).getOrElse("10000").toInt
+    }else{
+      arg4.toInt
     }
 
     filterData(savePath,filterPath,matchFilterPath,seconds)
-    matchPortal(varsMap,matchFilterPath,matchPortalPath,0)
+    matchPortal(varsMap,matchFilterPath,matchPortalPath,0,pieceAmount)
+    combinMatch(matchPortalPath)
     dropHistory(prjName,tagName,tagPath,matchPortalPath,historyPath,dropHistoryPath)
     kvTag(tagName,dropHistoryPath,kvPath,saveHistoryPath)
   }

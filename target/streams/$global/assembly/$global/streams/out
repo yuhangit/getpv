@@ -1,5 +1,5 @@
-[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: util.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: scala-library-2.11.8.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding: util.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding: scala-library-2.11.8.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mCalculate mappings...[0m
 [0m[[0m[0minfo[0m] [0m[0mChecking every *.class/*.jar file's SHA-1.[0m
 [0m[[0m[0minfo[0m] [0m[0mMerging files...[0m
@@ -7,21 +7,35 @@
 [0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/KV_GEN_UTIL/KV_GEN_UTIL/pom.properties' with strategy 'discard'[0m
 [0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/KV_GEN_UTIL/KV_GEN_UTIL/pom.xml' with strategy 'discard'[0m
 [0m[[0m[33mwarn[0m] [0m[0mStrategy 'discard' was applied to 3 files[0m
-[0m[[0m[0minfo[0m] [0m[0mSHA-1: 1f518186849134cfcb483e71b175cce4190411bd[0m
+[0m[[0m[0minfo[0m] [0m[0mSHA-1: 40fb3dbbc6824afe87cee483475854dd7d12e9c3[0m
 [0m[[0m[0minfo[0m] [0m[0mPackaging /Users/ky/Projects/IdeaProjects/GetPV/target/scala-2.11/GetPV-assembly-0.1.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$11.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$11.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$12.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$12.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$13.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$13.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$2$$anonfun$apply$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$2$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$10$$anonfun$11.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$10$$anonfun$11.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$10$$anonfun$12.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$10$$anonfun$12.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$10$$anonfun$13.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$10$$anonfun$13.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$10.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$10.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$14.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$14.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$15.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$15.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$16.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$16.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$17.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$17.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$18.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$18.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$3$$anonfun$apply$1$$anonfun$apply$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$3$$anonfun$apply$1$$anonfun$apply$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$3$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$3$$anonfun$apply$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$4.class[0m
@@ -30,30 +44,40 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$6.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$6.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$7$$anonfun$10.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$7$$anonfun$10.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$7$$anonfun$8.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$7$$anonfun$8.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$7$$anonfun$9.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$7$$anonfun$9.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$7.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$9.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$9.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$main$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$main$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$matchPortal$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$matchPortal$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$typecreator15$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$typecreator15$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$typecreator19$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$typecreator19$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$anonfun$matchPortal$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$anonfun$matchPortal$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$typecreator13$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$typecreator13$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$typecreator17$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$typecreator17$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$typecreator25$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$typecreator25$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$typecreator29$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$typecreator29$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$typecreator3$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$typecreator3$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$typecreator7$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$typecreator7$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$typecreator5$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$typecreator5$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$$typecreator9$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$$typecreator9$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/GetPv.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/GetPv.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/SadaRecord$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/SadaRecord$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/yxspark/SadaRecord.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/6e9b2c59282eeeab8a29b00fbb331bd743bf4618_dir/com/yxspark/SadaRecord.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	hlwbbigdata/call_in$$anonfun$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ky/Projects/IdeaProjects/GetPV/target/streams/$global/assemblyOption/$global/streams/assembly/23b04acf26c8b342308552f09aae92be2bc99309_30a9eed8106d1ec4bcdc0b0317800888485b5bb0_da39a3ee5e6b4b0d3255bfef95601890afd80709/hlwbbigdata/call_in$$anonfun$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	hlwbbigdata/call_in$$anonfun$10.class[0m
