@@ -52,8 +52,9 @@ object GetPv {
     //println(s"source files: ${adcookiePath} ${newclickPath} ${postPath}")
     val sadaRecordArr = Array("scrip", "ad", "ts", "url", "ref", "ua", "dstip","cookie", "srcPort")
 
-    val data = sc.textFile("%s,%s,%s".format(adcookiePath,newclickPath,postPath))
-    val urls = sc.textFile(urlPath).collect()
+    val data = sc.textFile("%s,%s".format(adcookiePath,newclickPath))
+//    val data = sc.textFile("%s,%s,%s".format(adcookiePath,newclickPath,postPath))
+    val urls = sc.textFile(urlPath).map(l => l.split(" +")).collect().toList
 
     val sourceDS = data.map{
       line =>
@@ -213,13 +214,14 @@ object GetPv {
     val publicPath = "hdfs://ns1/user/gdpi/public"
     val addcookiePath = s"${publicPath}/sada_gdpi_adcookie/${dateStr}/*/*.gz"
     val newclickPath = s"${publicPath}/sada_new_click/${dateStr}/*/*.gz"
-    val postPath = s"${publicPath}/sada_gdpi_post_click/${dateStr}/*/*.gz"
+    val postPath = ""
+//    val postPath = s"${publicPath}/sada_gdpi_post_click/${dateStr}/*/*.gz"
 
     // configure file path
-    val urlPath = s"hdfs://ns1/user/u_tel_hlwb_xgq/private/pv/pvconfig/${prjName}_url.txt"
-    val tagPath = s"hdfs://ns1/user/u_tel_hlwb_xgq/private/pv/pvconfig/${prjName}_appname.txt"
+    val urlPath = s"hdfs://ns1/user/u_tel_hlwb_mqj/private/pv/pvconfig/${prjName}_url.txt"
+    val tagPath = s"hdfs://ns1/user/u_tel_hlwb_mqj/private/pv/pvconfig/${prjName}_appname.txt"
     // private path
-    val privatePath = s"hdfs://ns1/user/u_tel_hlwb_xgq/private/pv/${prjName}/${dateStr}"
+    val privatePath = s"hdfs://ns1/user/u_tel_hlwb_mqj/private/pv/${prjName}/${dateStr}"
     val savePath = s"${privatePath}/${prjName}_pv_${dateStr}"
     val filterPath = s"${privatePath}/${prjName}_pv_filter_${dateStr}"
     val matchFilterPath = s"${privatePath}/${prjName}_pv_match_filter_${dateStr}"
@@ -228,20 +230,20 @@ object GetPv {
     val kvPath = s"${privatePath}/${prjName}_pv_kv_${dateStr}"
 
     // history file path
-    val historyPath = s"hdfs://ns1/user/u_tel_hlwb_xgq/private/lxc_xgq/${prjName}_final_history/*"
-    val saveHistoryPath = s"hdfs://ns1/user/u_tel_hlwb_xgq/private/lxc_xgq/${prjName}_final_history/${prjName}_pv_${dateStr}"
+    val historyPath = s"hdfs://ns1/user/u_tel_hlwb_mqj/private/lxc_xgq/${prjName}_final_history/*"
+    val saveHistoryPath = s"hdfs://ns1/user/u_tel_hlwb_mqj/private/lxc_xgq/${prjName}_final_history/${prjName}_pv_${dateStr}"
 
     // test file exists or not
     //assert(new File(urlPath).exists, s"url file ${urlPath} not exist, please check again")
     //assert(new File(tagPath).exists(),s"tag file ${tagPath} not exist, pease check again")
     //createDir(savePath)
-    // delete file
-    deleteFile(filterPath)
-    deleteFile(matchFilterPath)
-    deleteFile(matchPortalPath)
-    deleteFile(dropHistoryPath)
-    deleteFile(kvPath)
-    deleteFile(saveHistoryPath)
+//    // delete file
+//    deleteFile(filterPath)
+//    deleteFile(matchFilterPath)
+//    deleteFile(matchPortalPath)
+//    deleteFile(dropHistoryPath)
+//    deleteFile(kvPath)
+//    deleteFile(saveHistoryPath)
     // get relate url from source
 
     val pieceAmount =  if (runAll){
@@ -254,8 +256,8 @@ object GetPv {
     filterData(savePath,filterPath,matchFilterPath,seconds)
     matchPortal(varsMap,matchFilterPath,matchPortalPath,0,pieceAmount)
     combinMatch(matchPortalPath)
-    dropHistory(prjName,tagName,tagPath,matchPortalPath,historyPath,dropHistoryPath)
-    kvTag(tagName,dropHistoryPath,kvPath,saveHistoryPath)
+//    dropHistory(prjName,tagName,tagPath,matchPortalPath,historyPath,dropHistoryPath)
+//    kvTag(tagName,dropHistoryPath,kvPath,saveHistoryPath)
   }
 
 }

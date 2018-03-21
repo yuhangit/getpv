@@ -4,7 +4,7 @@
 		module="getpv-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20180309145247"
+		publication="20180321171317"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>
